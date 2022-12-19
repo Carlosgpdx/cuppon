@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color:rgb(26, 197, 0);
+    text-align: right;
+}
+.collapse ul li a {
+    color: #fff;
+}
+.spacer {
+    flex: 1 1 auto;
+}
+.correo {
+    text-align: center;
+    background-color:rgb(26, 197, 0);
+    color: aliceblue;
+}
+.title {
+    padding-top: 2rem;
+    font-size: medium;
+}
+footer {
+    text-align: left;  
+}
+
+.logo2 img{
+    height: 35px;
+    width: 90px;
+}
+.logo1 img{
+    height: 35px;
+    width: 90px;
+    padding-left: 20px;
+}
+
+.nombre{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+    font-weight: 300;
+    color:#212529 ;
+}
+.empresa{
+    font-family: 'roboto', sans-serif;
+    font-size: 16pt;
+    color: #707070;
+    font-weight: 300;
+}
+
+.valores{
+    font-family: 'roboto', sans-serif;
+    margin-right: 10px;
+    text-align: right;
+   
+    
+}
+
+.valores .antes{
+    color: #707070;
+    text-decoration: line-through;
+    font-size: 15pt;
+    font-weight: 400;  
+}
+.valores .ahora{
+    color: #28A745;
+    text-decoration: none;
+    font-size: 20pt;
+    font-weight: 500;
+}
+
